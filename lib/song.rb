@@ -10,7 +10,7 @@ def initialize(name, artist, genre)
   @artist = artist
   @genre = genre
 
-@@count += 1                   # good place to put in function for execution within class method, show below with self
+@@count += 1                   # good place to put in function for execution within class method,  which is shown below with self
 @@artists.push(artist)
 @@genres.push(genre)
 
